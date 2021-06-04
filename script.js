@@ -24,6 +24,13 @@ const upper = confirm ("Would you like Uppercase letters in the password?")
 const lower = confirm ("Would you like lowercase letters in your password?")
 const character = confirm ("Would you like to include special characters in your password?")
 
+if (number){
+    resultArray = resultArray.concat(characterArray)
+}
+
+
+
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
