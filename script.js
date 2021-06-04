@@ -15,7 +15,6 @@ function writePassword() {
     const passwordText = document.querySelector("#password");
 
     passwordText.value = password;
-
 }
 
 const start = prompt ("How many characters should the password be? 8-128?")
@@ -29,6 +28,9 @@ if (number){
 }
 if (upper) {
     resultArray = resultArray.concat(uppercaseArray)
+}
+if (lower) {
+    resultArray = resultArray.concat(lowercaseArray)
 }
 
 
