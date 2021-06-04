@@ -8,13 +8,14 @@ const lowercaseArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "
 const numbArray = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
 const characterArray = ["!", "”", "#", "$", "%", "&", "’", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "["]
 
+prompt("How many characters should the password be? 8-128?")
+const number = prompt("Would you like numbers in your password?")
+const upper = prompt("Would you like Uppercase letters in the password?")
+const lower = prompt("Would you like lowercase letters in your password?")
+const character = prompt("Would you like to include special characters in your password?")
 
+let resultArray = []
 
-const start = prompt("How many characters should the password be? 8-128?")
-const number = confirm("Would you like numbers in your password?")
-const upper = confirm("Would you like Uppercase letters in the password?")
-const lower = confirm("Would you like lowercase letters in your password?")
-const character = confirm("Would you like to include special characters in your password?")
 
 if (number) {
     resultArray = resultArray.concat(numbArray)
@@ -30,6 +31,7 @@ if (character) {
 }
 console.log(resultArray)
 }
+
 
 
 
