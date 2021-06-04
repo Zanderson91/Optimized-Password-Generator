@@ -11,12 +11,19 @@ function writePassword() {
 
 
 
-    var password = generatePassword();
-    var passwordText = document.querySelector("#password");
+    const password = generatePassword();
+    const passwordText = document.querySelector("#password");
 
     passwordText.value = password;
 
 }
+
+const start = prompt ("How many characters should the password be? 8-128?")
+const number = confirm ("Would you like numbers in your password?")
+const upper = confirm ("Would you like Uppercase letters in the password?")
+const lower = confirm ("Would you like lowercase letters in your password?")
+const character = confirm ("Would you like to include special characters in your password?")
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
