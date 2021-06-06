@@ -6,12 +6,21 @@ const lowercaseArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "
 const numbArray = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 const characterArray = ["!", "”", "#", "$", "%", "&", "’", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "["];
 
-/*
-const passwordFinal = document.getElementById("password")
-const length = document.getElementById("length")
-const numbers = document.getElementById("numbers")
-const characters = document.getElementById("characters")
-*/
+
+
+
+
+prompt("How many characters should the password be? 8-128?");
+const number = confirm("Would you like numbers in your password?");
+const upper = confirm("Would you like Uppercase letters in the password?");
+const lower = confirm("Would you like lowercase letters in your password?");
+const character = confirm("Would you like to include special characters in your password?");
+const resultArray = [""]
+
+function generatePassword() {
+
+
+
 
 // Write password to the #password input
 function writePassword() {
@@ -21,15 +30,6 @@ function writePassword() {
 }
 
 
-/*
-
-function generatePassword() {
-prompt("How many characters should the password be? 8-128?");
-const number = confirm("Would you like numbers in your password?");
-const upper = confirm("Would you like Uppercase letters in the password?");
-const lower = confirm("Would you like lowercase letters in your password?");
-const character = confirm("Would you like to include special characters in your password?");
-const resultArray = [""]
 
 */
 
