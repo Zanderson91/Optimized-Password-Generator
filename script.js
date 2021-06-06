@@ -21,7 +21,10 @@ const character = confirm("Would you like to include special characters in your 
 function generatePassword() {
     const length = (prompt("How many characters should the password be? 8-128?"));
 
-
+for(length <= 8 || length >= 128) {
+    alert(Password length must be between 8 and 128 characters!);
+    const length = (prompt("How many characters should the password be? 8-128?"));
+}
 
 
 
