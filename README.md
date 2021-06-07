@@ -1,9 +1,17 @@
 # Optimized-Password-Generator
 The Optomized-Password-Generator is a helpful tool to use when creating a password using a specific criteria.
 
-This particular Generator satisfies ALL given Acceptance Criteria within the User Story...See Below.
+https://zanderson91.github.io/Optimized-Password-Generator/
 
 <img src = "./03-javascript-homework-demo.png">
+
+This project consisted of 3 parts
+-Crafting User Experience.
+-Establishing variables/Prompts and Confirm statements.
+-Defining Conditional statements to call array parameters.
+
+After working through the User Experience and crafting password criteria, I defined variables and used them within the function.
+The function contains prompts and confirm statements to establish user criteria. Once the user selects their conditions, the conditional statements work through parameters to define the user's unique password. The password generator works and satisfies all acceptance criteria to best suit the User's need. 
 
 ## User Story
 
