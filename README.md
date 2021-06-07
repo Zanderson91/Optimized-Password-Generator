@@ -2,6 +2,9 @@
 The Optomized-Password-Generator is a helpful tool to use when creating a password using a specific criteria.
 
 This particular Generator satisfies ALL given Acceptance Criteria within the User Story...See Below.
+
+<img src = "./03-javascript-homework-demo.png">
+
 ## User Story
 
 ```
@@ -30,7 +33,7 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-<img src = "./03-javascript-homework-demo.png">
+
 
 
 
