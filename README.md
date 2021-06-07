@@ -30,6 +30,7 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
+https://github.com/Zanderson91/Optimized-Password-Generator/blob/aae4afe07965caa128df2ee34dea8f571370618f/Assests/03-javascript-homework-demo.png
 
-C:\Users\zacka\projects\Optimized-Password-Generator\Assests\03-javascript-homework-demo.png
+
 
