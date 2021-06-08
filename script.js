@@ -19,10 +19,7 @@ function generatePassword() {
     let finalPassword = '';
 
 //This conditional allows for the user to reselect a number within the defined parameters.
-    if (passLength < 8 || passLength > 128) {
-        alert("Password length must be between 8 and 128 characters!");
-        prompt("How many characters should the password be? 8-128?");
-    }
+
 
     if (number) {
         resultArray = resultArray.concat(numbArray)
@@ -39,6 +36,11 @@ function generatePassword() {
     if (character) {
         resultArray = resultArray.concat(characterArray)
     };
+
+    if (passLength < 8 || passLength > 128) {
+        alert("Password length must be between 8 and 128 characters!");
+        return generatePassword()
+    }
 
     //Shorthand is used to show that finalPassword will be shown when the concatenated arrays are called x times from the User's passLength. 
     for (var i = 0; i < passLength; i++) {
